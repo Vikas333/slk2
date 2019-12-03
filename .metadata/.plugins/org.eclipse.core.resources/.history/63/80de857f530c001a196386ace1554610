@@ -1,0 +1,5 @@
+package com.slk.duo;
+
+public interface CustomerDao {
+
+}

@@ -1,0 +1,45 @@
+package com.slk.duo;
+
+import com.slk.util.Customer;
+import com.sun.corba.se.pept.transport.Connection;
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
+public class CustomerDaoImp implements Customerdao {
+       Connection connection =null;
+       
+       public CustomerDaoImp()
+       {
+    	   
+       }
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List getallcustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer getcustomerbyId(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

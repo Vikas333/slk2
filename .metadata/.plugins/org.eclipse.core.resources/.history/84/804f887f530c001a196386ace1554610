@@ -1,0 +1,22 @@
+package com.slk.duo;
+
+
+
+import com.slk.util.Customer;
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
+	public interface Customerdao {
+	            void addCustomer(Customer customer);
+	           void updateCustomer(Customer customer);
+	            void deleteCustomer(Customer customer);
+	            
+	            List getallcustomers();
+	            Customer getcustomerbyId(long id);
+	            
+	            
+	            
+	          
+	            
+	}
+
+

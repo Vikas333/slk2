@@ -1,0 +1,6 @@
+package com.slk.duo;
+
+public class Snippet {
+	  void updateCustomer(Customer customer);
+}
+
